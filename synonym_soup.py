@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import sys
+
+sys.setrecursionlimit(1500)
 
 # URL Template
 BASE_URL = "https://www.thesaurus.com/browse/"
