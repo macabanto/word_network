@@ -4,7 +4,7 @@ import json
 import time
 import sys
 
-sys.setrecursionlimit(1500)
+sys.setrecursionlimit(2000)
 
 # URL Template
 BASE_URL = "https://www.thesaurus.com/browse/"
@@ -29,7 +29,7 @@ def fetch_synonyms(word):
         response.raise_for_status()  # Ensure the request was successful
         soup = BeautifulSoup(response.text, 'html.parser')
         # Extract synonyms by class identifier
-        synonym_elements = soup.find_all(class_="Bf5RRqL5MiAp4gB8wAZa")
+        synonym_elements = soup.select('.Bf5RRqL5MiAp4gB8wAZa, .CPTwwN0qNO__USQgCKp8')
         synonyms = {elem.text.strip() for elem in synonym_elements}
         return synonyms
     except Exception as e:
@@ -38,17 +38,24 @@ def fetch_synonyms(word):
 
 # Recursive function to build the synonym network
 def build_synonym_network(word, data):
-    if word in data:
-        print(f"'{word}' already processed.")
+    # Check if word exists AND if it has synonyms (non-empty list)
+    if word in data and data[word]:
+        print(f"'{word}' already processed with synonyms, skipping...")
         return
     
     print(f"Processing '{word}'...")
     synonyms = fetch_synonyms(word)
-    data[word] = list(synonyms)  # Convert set to list for JSON compatibility
+
+    if synonyms:
+        data[word] = list(synonyms)  # Convert set to list for JSON compatibility
+        print(f"Found {len(synonyms)} synonyms for '{word}'")
+    else:
+        data[word] = []  # Store an empty list to avoid reprocessing later
+        print(f"No synonyms found for '{word}', storing as empty.")
 
     # Process each synonym recursively
     for synonym in synonyms:
-        if synonym not in data:  # Avoid reprocessing
+        if synonym not in data or not data[synonym]:  # Only process if new or empty
             build_synonym_network(synonym, data)
     
     # Save after processing each word
