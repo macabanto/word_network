@@ -8,33 +8,72 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+import os
 
 # Constants
 BASE_URL = "https://www.collinsdictionary.com/dictionary/english-thesaurus/"
 OUTPUT_FILE = "output/synonyms_graph.json"
+QUEUE_FILE = "output/queue.json"
 
 # Load existing JSON or create new storage
 def load_json(filename):
     try:
         with open(filename, 'r') as file:
             return json.load(file)
-    except FileNotFoundError:
+    except (FileNotFoundError, json.JSONDecodeError):
         return {}
 
 def save_json(data, filename):
     with open(filename, 'w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file, indent=4, ensure_ascii=False)
+METRICS_FILE = "output/metrics.json"
+
+# Load or initialize metrics file
+def load_metrics():
+    try:
+        with open(METRICS_FILE, 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return {"total_words_processed": 0, "total_synonyms": 0, "graph_file_size": 0, "queue_length": 0}
+
+def save_metrics(metrics):
+    with open(METRICS_FILE, 'w', encoding='utf-8') as file:
+        json.dump(metrics, file, indent=4)
+
+def update_metrics(data, queue):
+    metrics = load_metrics()
+    
+    # Update metrics
+    metrics["total_words_processed"] = len(set(lemma["term"] for lemma in data.values()))  # Unique words processed
+    metrics["total_lemmas"] = len(data)  # Each lemma is uniquely stored by its ID
+    metrics["total_synonyms"] = sum(len(lemma["synonyms"]) for lemma in data.values())  # Total synonyms stored
+    metrics["graph_file_size"] = os.path.getsize(OUTPUT_FILE) if os.path.exists(OUTPUT_FILE) else 0  # File size in bytes
+    metrics["queue_length"] = len(queue)  # Remaining words in queue
+    
+    save_metrics(metrics)
+
+# Load the queue from file
+def load_queue():
+    if os.path.exists(QUEUE_FILE):
+        with open(QUEUE_FILE, 'r') as file:
+            try:
+                return deque(json.load(file))  # Convert list back to deque
+            except json.JSONDecodeError:
+                return deque()
+    return deque()
+
+# Save the queue to file
+def save_queue(queue):
+    with open(QUEUE_FILE, 'w', encoding='utf-8') as file:
+        json.dump(list(queue), file, indent=4, ensure_ascii=False)  # <--- ensure_ascii=False
 
 # Set up Selenium (Headless Chrome)
 def setup_selenium():
     chrome_options = Options()
-    # try without chrome_options.add_argument("--headless")  # Run in the background without UI
+    chrome_options.add_argument("--headless")  # Run in the background without UI
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # Avoid detection
 
-    # Provide path to your chromedriver
-    service = Service("~/Applications/chromedriver-mac-arm64")  # Replace with actual ChromeDriver path
     driver = webdriver.Chrome()
-    
     return driver
 
 # Fetch HTML content using Selenium
@@ -45,15 +84,8 @@ def fetch_html(word):
     try:
         driver.get(url)
         time.sleep(3)  # Wait for JavaScript to load
-
-        # Print the first 500 characters of the page source for debugging
-        page_source = driver.page_source
-        #print(page_source[:500])  # Check if content is loading
-
-        soup = BeautifulSoup(page_source, "html.parser")
-        
+        soup = BeautifulSoup(driver.page_source, "html.parser")
         return soup
-
     except Exception as e:
         print(f"Error fetching {url}: {e}")
         return None
@@ -64,38 +96,30 @@ def fetch_html(word):
 def generate_lemma_id(word, definition):
     return uuid.uuid5(uuid.NAMESPACE_DNS, word + definition).hex[:10]
 
-# Lemma generation
-# given the soup object, we want to extract every single lemma found on the page for a given word
-# Parse HTML and extract LEMMAs
-# given word, soup object
-# output list of lemmas found on page following the lemma schema
+# Parse HTML and extract lemmas
 def parse_lemma(word, soup):
     lemma_list = []
-    # Isolate the british lemmas
-    british_div = soup.select_one('div.blockThes-british') # div pertaining to british definitions ( avoid extracting american def / duplication )
-    # Find all "sense" divs
-    sense_divs = british_div.select('div.sense.opened.moreAnt.moreSyn')
-    if not sense_divs:  
-        print(f"No .sense elements found for {word}!")  
-        print(soup.prettify()[:20])  
+    british_div = soup.select_one('div.blockThes-british')
+    if not british_div:
+        print(f"No British definitions found for {word}!")
         return []
-    # testing - why more senses than thought: discovered - both british and american definitions were being parsed; print(len(sense_divs))
+    
+    sense_divs = british_div.select('div.sense.opened.moreAnt.moreSyn')
+    if not sense_divs:
+        print(f"No .sense elements found for {word}!")  
+        return []
+    
     for sense in sense_divs:
-        # Extract part of speech
         part_of_speech = sense.select_one("span.headerSensePos")
         part_of_speech = part_of_speech.text.strip() if part_of_speech else "Unknown"
 
-        # Extract definition
         definition = sense.select_one(".def")
         definition = definition.text.strip() if definition else "No definition available"
 
         id = generate_lemma_id(word, definition)
 
-        synonym_block = sense.select_one('div.blockSyn')
-        synonym_elements = synonym_block.select('span.orth')
-        synonyms = [syn.text.strip() for syn in synonym_elements if syn and syn.text.strip()]
-
-        # Create lemma object
+        synonym_elements = sense.select('div.blockSyn a span.orth')  # Only extract synonyms that link to a page
+        synonyms = [syn.text.strip().replace(" ", "-") for syn in synonym_elements if syn and syn.text.strip()]
         lemma_obj = {
             "id": id,
             "term": word,
@@ -104,20 +128,24 @@ def parse_lemma(word, soup):
             "synonyms": synonyms  # Store raw words
         }
         lemma_list.append(lemma_obj)
-        #way too much, print(lemma_obj)
-        #i think its returning before going through the whole lemma list, not sure why
+
     return lemma_list
 
 # Main function to build the graph
-def build_synonym_graph(start_word):
+def build_synonym_graph():
     data = load_json(OUTPUT_FILE)
-    queue = deque([start_word])  # BFS approach
-    
+    queue = load_queue()
+
+    # If queue is empty, prompt for a starting word
+    if not queue:
+        start_word = input("Enter a starting word: ").strip().lower()
+        queue.append(start_word)
+
     while queue:
-        print(queue)
+        # print(queue)
         word = queue.popleft()
         
-        if any(lemma.startswith(word) for lemma in data.keys()):  # Skip if processed
+        if any(lemma.startswith(word) for lemma in data.keys()):  # Skip if already processed
             continue
         
         print(f"Processing: {word}")
@@ -136,11 +164,12 @@ def build_synonym_graph(start_word):
                     queue.append(synonym)  # Add to queue for processing
         
         save_json(data, OUTPUT_FILE)
+        save_queue(queue)  # Save queue progress
+        update_metrics(data, queue)  # Update metrics after each word
         time.sleep(0.2)  # Avoid request overload
-    
+
     print("Processing complete! Data saved.")
 
 # Run the script
 if __name__ == "__main__":
-    start_word = input("Enter a starting word: ").strip().lower()
-    build_synonym_graph(start_word)
+    build_synonym_graph()

@@ -44,8 +44,7 @@
             "space",
             "interval",
             "span",
-            "duration",
-            "incumbency"
+            "duration"
         ]
     },
     "05b45a24ee": {
@@ -76,7 +75,6 @@
             "tag",
             "dub",
             "designate",
-            "describe as",
             "denominate"
         ]
     },
@@ -102,17 +100,14 @@
         "definition": "a brief conversation",
         "synonyms": [
             "chat",
-            "t\u00eate-\u00e0-t\u00eate",
+            "tête-à-tête",
             "talk",
             "discussion",
             "consultation",
-            "chitchat",
-            "brief conversation",
             "colloquy",
             "confabulation",
             "confab",
-            "heart-to-heart",
-            "powwow"
+            "heart-to-heart"
         ]
     },
     "312523df4e": {
@@ -125,8 +120,7 @@
             "remark",
             "expression",
             "declaration",
-            "utterance",
-            "brief statement"
+            "utterance"
         ]
     },
     "f06eff3278": {
@@ -147,11 +141,9 @@
             "intelligence",
             "bulletin",
             "dispatch",
-            "gen",
-            "communiqu\u00e9",
+            "communiqué",
             "intimation",
-            "tidings",
-            "heads up"
+            "tidings"
         ]
     },
     "d7d412db58": {
@@ -166,11 +158,7 @@
             "undertaking",
             "vow",
             "assurance",
-            "oath",
-            "parole",
-            "word of honour",
-            "solemn oath",
-            "solemn word"
+            "oath"
         ]
     },
     "146e54d4ed": {
@@ -186,9 +174,7 @@
             "decree",
             "bidding",
             "mandate",
-            "commandment",
-            "edict",
-            "ukase"
+            "edict"
         ]
     },
     "2b838fe28a": {
@@ -246,10 +232,7 @@
             "term",
             "handle",
             "denomination",
-            "epithet",
-            "sobriquet",
-            "cognomen",
-            "moniker or monicker"
+            "epithet"
         ]
     },
     "6ca3e25146": {
@@ -368,7 +351,6 @@
             "intonation",
             "style",
             "delivery",
-            "phrasing",
             "emphasis",
             "execution",
             "diction"
@@ -391,11 +373,97 @@
             "maxim",
             "idiom",
             "adage",
-            "choice of words",
-            "turn of phrase",
+            "turn-of-phrase",
             "phraseology",
-            "locution",
-            "set phrase"
+            "locution"
+        ]
+    },
+    "aa8d77f61e": {
+        "id": "aa8d77f61e",
+        "term": "title",
+        "part_of_speech": "(noun)",
+        "definition": "a descriptive name or heading of a section of a book, speech, etc.",
+        "synonyms": [
+            "heading",
+            "name",
+            "caption",
+            "label",
+            "legend",
+            "inscription"
+        ]
+    },
+    "18ea344da0": {
+        "id": "18ea344da0",
+        "term": "title",
+        "part_of_speech": "(noun)",
+        "definition": "a book or periodical",
+        "synonyms": [
+            "publication",
+            "book",
+            "offering"
+        ]
+    },
+    "aaee0b2856": {
+        "id": "aaee0b2856",
+        "term": "title",
+        "part_of_speech": "(noun)",
+        "definition": "a formal designation, such as Mrs or Dr",
+        "synonyms": [
+            "name",
+            "designation",
+            "epithet",
+            "term",
+            "handle",
+            "nickname",
+            "denomination",
+            "pseudonym",
+            "appellation",
+            "sobriquet",
+            "nom-de-plume"
+        ]
+    },
+    "732fdc38d4": {
+        "id": "732fdc38d4",
+        "term": "title",
+        "part_of_speech": "(noun)",
+        "definition": "a championship",
+        "synonyms": [
+            "championship",
+            "trophy",
+            "bays",
+            "crown",
+            "honour"
+        ]
+    },
+    "dd44b109c7": {
+        "id": "dd44b109c7",
+        "term": "title",
+        "part_of_speech": "(noun)",
+        "definition": "the legal right to possession of property",
+        "synonyms": [
+            "ownership",
+            "right",
+            "claim",
+            "privilege",
+            "entitlement",
+            "tenure",
+            "prerogative",
+            "freehold"
+        ]
+    },
+    "a4a3a9d577": {
+        "id": "a4a3a9d577",
+        "term": "title",
+        "part_of_speech": "(verb)",
+        "definition": "No definition available",
+        "synonyms": [
+            "name",
+            "call",
+            "term",
+            "style",
+            "label",
+            "tag",
+            "designate"
         ]
     },
     "0a56d2593e": {
@@ -410,7 +478,6 @@
             "marker",
             "flag",
             "tally",
-            "sticker",
             "docket"
         ]
     },
@@ -435,9 +502,7 @@
             "brand",
             "company",
             "mark",
-            "trademark",
-            "brand name",
-            "trade name"
+            "trademark"
         ]
     },
     "335b596c8a": {
@@ -453,7 +518,6 @@
             "flag",
             "tab",
             "tally",
-            "sticker",
             "docket"
         ]
     },
@@ -495,8 +559,6 @@
             "utterance",
             "adage",
             "dictum",
-            "way of speaking",
-            "group of words",
             "locution"
         ]
     },
@@ -518,8 +580,7 @@
             "convey",
             "utter",
             "couch",
-            "formulate",
-            "put into words"
+            "formulate"
         ]
     },
     "b440f82aa8": {
@@ -528,13 +589,11 @@
         "part_of_speech": "(noun)",
         "definition": "a group which has slightly different beliefs from other groups within the same faith",
         "synonyms": [
-            "religious group",
             "belief",
             "sect",
             "persuasion",
             "creed",
-            "school",
-            "hauhau"
+            "school"
         ]
     },
     "e457f2499b": {
@@ -630,9 +689,7 @@
         "part_of_speech": "(noun)",
         "definition": "manner or style of speech",
         "synonyms": [
-            "manner of speech",
             "style",
-            "phrasing",
             "accent",
             "articulation",
             "inflection",
@@ -651,8 +708,7 @@
             "term",
             "phrase",
             "idiom",
-            "collocation",
-            "turn of speech"
+            "collocation"
         ]
     },
     "e95c3ba65b": {
@@ -693,12 +749,7 @@
         "part_of_speech": "(noun)",
         "definition": "No definition available",
         "synonyms": [
-            "booze up",
-            "binge",
-            "bender",
-            "pub crawl",
-            "piss-up",
-            "sesh"
+            "binge"
         ]
     },
     "70b37736cb": {
@@ -768,11 +819,8 @@
         "part_of_speech": "(noun)",
         "definition": "a complete series of lessons or lectures",
         "synonyms": [
-            "classes",
-            "course of study",
             "programme",
             "schedule",
-            "lectures",
             "curriculum",
             "studies"
         ]
@@ -786,7 +834,6 @@
             "racecourse",
             "race",
             "circuit",
-            "cinder track",
             "lap"
         ]
     },
@@ -821,8 +868,7 @@
             "surge",
             "dash",
             "tumble",
-            "scud",
-            "move apace"
+            "scud"
         ]
     },
     "290fbfa480": {
@@ -895,8 +941,7 @@
             "indulgence",
             "clemency",
             "leniency",
-            "forbearance",
-            "lenity"
+            "forbearance"
         ]
     },
     "0444e6b44f": {
@@ -913,10 +958,7 @@
             "post",
             "station",
             "install",
-            "put up",
-            "billet",
-            "give accommodation",
-            "provide with accommodation"
+            "billet"
         ]
     },
     "abc323e58d": {
@@ -968,16 +1010,13 @@
         "synonyms": [
             "age",
             "generation",
-            "years",
             "time",
-            "days",
             "term",
             "stage",
             "date",
             "cycle",
             "era",
-            "epoch",
-            "aeon"
+            "epoch"
         ]
     },
     "c6c33393a2": {
@@ -1007,12 +1046,8 @@
             "phase",
             "interval",
             "span",
-            "period of time",
             "stint",
-            "duration",
-            "length of time",
-            "time frame",
-            "timeline"
+            "duration"
         ]
     },
     "15a2ebcfc9": {
@@ -1028,7 +1063,6 @@
             "stage",
             "instance",
             "instant",
-            "point in time",
             "juncture"
         ]
     },
@@ -1039,15 +1073,12 @@
         "definition": "a period or point marked by specific attributes or events",
         "synonyms": [
             "age",
-            "days",
             "era",
             "year",
             "date",
             "generation",
             "duration",
-            "epoch",
-            "chronology",
-            "aeon"
+            "epoch"
         ]
     },
     "149d56bcd4": {
@@ -1070,8 +1101,7 @@
             "tempo",
             "beat",
             "rhythm",
-            "measure",
-            "metre"
+            "measure"
         ]
     },
     "7ba66be261": {
@@ -1085,9 +1115,7 @@
             "signify",
             "suggest",
             "promise",
-            "point to",
             "imply",
-            "amount to",
             "herald",
             "augur",
             "presage",
@@ -1104,10 +1132,7 @@
             "charm",
             "sorcery",
             "exorcism",
-            "abracadabra",
-            "witchery",
-            "conjuration",
-            "makutu"
+            "abracadabra"
         ]
     },
     "c5a6452f79": {
@@ -1120,8 +1145,7 @@
             "magic",
             "fascination",
             "glamour",
-            "allure",
-            "bewitchment"
+            "allure"
         ]
     },
     "52f380819d": {
@@ -1148,11 +1172,7 @@
         "term": "while",
         "part_of_speech": "(conjunction)",
         "definition": "at the same time that",
-        "synonyms": [
-            "at the same time as",
-            "during the time that",
-            "for the period that"
-        ]
+        "synonyms": []
     },
     "5418deb3f7": {
         "id": "5418deb3f7",
@@ -1166,7 +1186,6 @@
             "spell",
             "patch",
             "interval",
-            "period of time",
             "stint"
         ]
     },
@@ -1179,8 +1198,7 @@
             "period",
             "time",
             "term",
-            "spell",
-            "time of year"
+            "spell"
         ]
     },
     "7187571e73": {
@@ -1193,9 +1211,7 @@
             "salt",
             "spice",
             "lace",
-            "salt and pepper",
             "enliven",
-            "pep up",
             "leaven"
         ]
     },
@@ -1217,7 +1233,6 @@
         "part_of_speech": "(verb)",
         "definition": "to make experienced",
         "synonyms": [
-            "make experienced",
             "train",
             "mature",
             "prepare",
@@ -1225,7 +1240,6 @@
             "harden",
             "accustom",
             "toughen",
-            "inure",
             "habituate",
             "acclimatize",
             "anneal"
@@ -1248,8 +1262,7 @@
             "expanse",
             "leeway",
             "amplitude",
-            "spaciousness",
-            "elbowroom"
+            "spaciousness"
         ]
     },
     "bf4543fa06": {
@@ -1264,9 +1277,7 @@
             "while",
             "stretch",
             "span",
-            "duration",
-            "time frame",
-            "timeline"
+            "duration"
         ]
     },
     "301f489265": {
@@ -1274,13 +1285,7 @@
         "term": "space",
         "part_of_speech": "(noun)",
         "definition": "the region beyond the earth's atmosphere containing other planets, stars, and galaxies",
-        "synonyms": [
-            "outer space",
-            "the universe",
-            "the galaxy",
-            "the solar system",
-            "the cosmos"
-        ]
+        "synonyms": []
     },
     "d0085e5018": {
         "id": "d0085e5018",
@@ -1335,8 +1340,7 @@
             "gap",
             "pause",
             "respite",
-            "lull",
-            "entr'acte"
+            "lull"
         ]
     },
     "90b552c432": {
@@ -1372,15 +1376,12 @@
         "part_of_speech": "(verb)",
         "definition": "to stretch or extend across, over, or around",
         "synonyms": [
-            "extend across",
             "cross",
             "bridge",
             "cover",
             "link",
             "vault",
-            "traverse",
-            "range over",
-            "arch across"
+            "traverse"
         ]
     },
     "664fa2dc88": {
@@ -1396,26 +1397,7 @@
             "stretch",
             "extent",
             "spell",
-            "span",
-            "time frame",
-            "timeline"
-        ]
-    },
-    "adbb8a0688": {
-        "id": "adbb8a0688",
-        "term": "incumbency",
-        "part_of_speech": "(noun)",
-        "definition": "No definition available",
-        "synonyms": [
-            "tenure",
-            "office",
-            "stipend",
-            "sinecure",
-            "preferment",
-            "emolument",
-            "tenancy",
-            "benefice",
-            "prebend"
+            "span"
         ]
     },
     "05029e0287": {
@@ -1449,7 +1431,6 @@
             "completion",
             "finale",
             "termination",
-            "bitter end",
             "result"
         ]
     },
@@ -1465,7 +1446,6 @@
             "consequence",
             "sequel",
             "culmination",
-            "end result",
             "issue"
         ]
     },
@@ -1570,7 +1550,6 @@
             "completion",
             "issue",
             "sequel",
-            "end result",
             "attainment",
             "upshot",
             "consummation"
@@ -1586,16 +1565,13 @@
             "dying",
             "ruin",
             "destruction",
-            "passing on",
             "doom",
             "demise",
             "extinction",
             "dissolution",
-            "passing away",
             "extermination",
             "annihilation",
-            "expiration",
-            "ruination"
+            "expiration"
         ]
     },
     "07cea32609": {
@@ -1613,9 +1589,7 @@
             "stump",
             "remainder",
             "leftover",
-            "tail end",
-            "oddment",
-            "tag end"
+            "oddment"
         ]
     },
     "72bd8dbbe3": {
@@ -1628,12 +1602,9 @@
             "take",
             "kill",
             "abolish",
-            "put an end to",
-            "do away with",
             "extinguish",
             "annihilate",
-            "exterminate",
-            "put to death"
+            "exterminate"
         ]
     },
     "8b8dd0c141": {
@@ -1648,14 +1619,7 @@
             "handy",
             "adjacent",
             "adjoining",
-            "hard by",
-            "just round the corner",
-            "within striking distance",
-            "cheek by jowl",
-            "proximate",
-            "within spitting distance",
-            "within sniffing distance",
-            "a hop, skip and a jump away"
+            "within-spitting-distance"
         ]
     },
     "705888dbc5": {
@@ -1712,10 +1676,7 @@
         "synonyms": [
             "even",
             "level",
-            "neck and neck",
-            "fifty-fifty",
-            "evenly matched",
-            "equally balanced"
+            "neck-and-neck"
         ]
     },
     "059298df15": {
@@ -1726,12 +1687,10 @@
         "synonyms": [
             "imminent",
             "near",
-            "approaching",
             "impending",
-            "at hand",
+            "at-hand",
             "upcoming",
-            "nigh",
-            "just round the corner"
+            "nigh"
         ]
     },
     "deb052e77c": {
@@ -1744,7 +1703,6 @@
             "confined",
             "oppressive",
             "stale",
-            "suffocating",
             "stuffy",
             "humid",
             "sweltering",
@@ -1785,9 +1743,7 @@
             "niggardly",
             "ungenerous",
             "penurious",
-            "tight-fisted",
-            "mingy",
-            "tight as a duck's arse"
+            "tight-fisted"
         ]
     },
     "d9bab9601f": {
@@ -1801,7 +1757,6 @@
             "crowded",
             "packed",
             "tight",
-            "cropped",
             "solid",
             "thick",
             "dense",
@@ -1819,7 +1774,6 @@
         "synonyms": [
             "shut",
             "lock",
-            "push to",
             "fasten",
             "secure"
         ]
@@ -1830,7 +1784,7 @@
         "part_of_speech": "(verb)",
         "definition": "to cease or cause to cease giving service",
         "synonyms": [
-            "shut down",
+            "shut-down",
             "finish",
             "cease",
             "discontinue"
@@ -1846,7 +1800,6 @@
             "finish",
             "complete",
             "conclude",
-            "wind up",
             "culminate",
             "terminate"
         ]
@@ -1857,10 +1810,8 @@
         "part_of_speech": "(verb)",
         "definition": "to bar, obstruct, or fill up (an entrance, a hole, etc.)",
         "synonyms": [
-            "block up",
             "bar",
-            "seal",
-            "shut up"
+            "seal"
         ]
     },
     "e7b1c77f56": {
@@ -1874,10 +1825,7 @@
             "secure",
             "conclude",
             "seal",
-            "verify",
-            "sew up",
-            "close out",
-            "set the seal on"
+            "verify"
         ]
     },
     "32112749c9": {
@@ -1886,7 +1834,6 @@
         "part_of_speech": "(verb)",
         "definition": "to take hold",
         "synonyms": [
-            "come together",
             "join",
             "connect"
         ]
@@ -1913,7 +1860,6 @@
         "part_of_speech": "(verb)",
         "definition": "to be at or come to the end",
         "synonyms": [
-            "use up",
             "use",
             "spend",
             "empty",
@@ -1927,18 +1873,12 @@
         "part_of_speech": "(verb)",
         "definition": "to bring to a desired or complete condition",
         "synonyms": [
-            "get done",
             "complete",
-            "put the finishing touch(es) to",
             "finalize",
             "do",
-            "deal with",
             "settle",
             "conclude",
-            "fulfil",
-            "carry through",
-            "get out of the way",
-            "make short work of"
+            "fulfil"
         ]
     },
     "bb135f947d": {
@@ -1971,7 +1911,6 @@
             "gild",
             "veneer",
             "lacquer",
-            "smooth off",
             "face"
         ]
     },
@@ -1984,19 +1923,15 @@
             "end",
             "ending",
             "close",
-            "closing",
             "conclusion",
             "run-in",
-            "winding up",
             "wind-up",
             "completion",
             "finale",
             "termination",
             "culmination",
             "cessation",
-            "last stage(s)",
-            "denouement",
-            "finalization"
+            "denouement"
         ]
     },
     "59962617f9": {
@@ -2029,11 +1964,9 @@
             "end",
             "death",
             "ruin",
-            "curtains",
             "bankruptcy",
             "liquidation",
-            "annihilation",
-            "end of the road"
+            "annihilation"
         ]
     },
     "bebdc55c83": {
@@ -2053,9 +1986,7 @@
             "apex",
             "apogee",
             "acme",
-            "punch line",
-            "ne plus ultra",
-            "crowning touch"
+            "ne-plus-ultra"
         ]
     },
     "83f1dc90d0": {
@@ -2071,11 +2002,8 @@
             "enjoyment",
             "realization",
             "attainment",
-            "maturation",
             "consummation",
-            "ripeness",
-            "actualization",
-            "materialization"
+            "actualization"
         ]
     },
     "0f39dfc65e": {
@@ -2091,7 +2019,6 @@
             "term",
             "style",
             "label",
-            "describe as",
             "christen",
             "denominate"
         ]
@@ -2105,10 +2032,7 @@
             "consider",
             "think",
             "judge",
-            "estimate",
-            "describe as",
-            "refer to as",
-            "regard as"
+            "estimate"
         ]
     },
     "2dde5c9eea": {
@@ -2123,7 +2047,6 @@
             "scream",
             "proclaim",
             "yell",
-            "cry out",
             "whoop"
         ]
     },
@@ -2135,11 +2058,7 @@
         "synonyms": [
             "phone",
             "contact",
-            "telephone",
-            "ring (up)",
-            "give (someone) a bell",
-            "Skype",
-            "video call"
+            "telephone"
         ]
     },
     "eaa4ee9962": {
@@ -2148,7 +2067,6 @@
         "part_of_speech": "(verb)",
         "definition": "to summon",
         "synonyms": [
-            "send for",
             "contact",
             "summon",
             "fetch",
@@ -2162,8 +2080,6 @@
         "definition": "No definition available",
         "synonyms": [
             "waken",
-            "wake",
-            "wake up",
             "arouse",
             "awaken",
             "rouse"
@@ -2177,10 +2093,8 @@
         "synonyms": [
             "visit",
             "come",
-            "go to",
-            "drop in",
-            "stop by",
-            "pop in"
+            "drop-in",
+            "stop-by"
         ]
     },
     "9954620aab": {
@@ -2189,14 +2103,9 @@
         "part_of_speech": "(noun)",
         "definition": "a communication by telephone",
         "synonyms": [
-            "telephone call",
-            "bell",
-            "phone call",
             "buzz",
             "tinkle",
-            "ring",
-            "video call",
-            "Skype"
+            "ring"
         ]
     },
     "82349bd61d": {
@@ -2236,7 +2145,6 @@
             "need",
             "cause",
             "reason",
-            "grounds",
             "occasion",
             "excuse",
             "justification",
@@ -2304,14 +2212,13 @@
             "refinement",
             "panache",
             "flamboyance",
-            "\u00e9lan",
-            "\u00e9clat",
+            "élan",
+            "éclat",
             "cosmopolitanism",
             "savoir-faire",
             "smartness",
             "urbanity",
             "stylishness",
-            "bon ton",
             "fashionableness",
             "dressiness"
         ]
@@ -2361,8 +2268,7 @@
             "comfort",
             "elegance",
             "grandeur",
-            "affluence",
-            "gracious living"
+            "affluence"
         ]
     },
     "af2884c0ed": {
@@ -2371,9 +2277,7 @@
         "part_of_speech": "(noun)",
         "definition": "a distinctive manner of expression in words, music, painting, etc.",
         "synonyms": [
-            "mode of expression",
-            "phrasing",
-            "turn of phrase",
+            "turn-of-phrase",
             "wording",
             "treatment",
             "expression",
@@ -2421,18 +2325,15 @@
         "part_of_speech": "(verb)",
         "definition": "to give (someone) the right to do or have something",
         "synonyms": [
-            "give the right to",
             "allow",
             "enable",
             "permit",
             "sanction",
             "license",
-            "qualify for",
             "warrant",
             "authorize",
             "empower",
-            "enfranchise",
-            "make eligible"
+            "enfranchise"
         ]
     },
     "3b82f98698": {
@@ -2451,7 +2352,6 @@
             "designate",
             "characterize",
             "christen",
-            "give the title of",
             "denominate"
         ]
     },
@@ -2463,13 +2363,11 @@
         "synonyms": [
             "label",
             "tab",
-            "sticker",
             "note",
             "ticket",
             "slip",
             "flag",
             "identification",
-            "marker",
             "flap",
             "docket"
         ]
@@ -2528,8 +2426,7 @@
         "definition": "No definition available",
         "synonyms": [
             "knight",
-            "entitle",
-            "confer knighthood upon"
+            "entitle"
         ]
     },
     "70b2971266": {
@@ -2566,11 +2463,8 @@
             "tag",
             "assign",
             "allocate",
-            "set aside",
             "earmark",
-            "mark out",
-            "allot",
-            "keep back"
+            "allot"
         ]
     },
     "95a74377e2": {
@@ -2589,6 +2483,378 @@
             "nominate",
             "assign",
             "depute"
+        ]
+    },
+    "5047e9ad08": {
+        "id": "5047e9ad08",
+        "term": "denominate",
+        "part_of_speech": "(verb)",
+        "definition": "to give a specific name to",
+        "synonyms": [
+            "name",
+            "call",
+            "term",
+            "style",
+            "entitle",
+            "phrase",
+            "dub",
+            "designate",
+            "christen"
+        ]
+    },
+    "44adad66d9": {
+        "id": "44adad66d9",
+        "term": "vocable",
+        "part_of_speech": "(noun)",
+        "definition": "No definition available",
+        "synonyms": [
+            "word",
+            "term",
+            "name",
+            "expression",
+            "designation",
+            "appellation",
+            "locution"
+        ]
+    },
+    "70034fedad": {
+        "id": "70034fedad",
+        "term": "chat",
+        "part_of_speech": "(verb)",
+        "definition": "to have an informal conversation",
+        "synonyms": [
+            "talk",
+            "gossip",
+            "jaw",
+            "natter",
+            "blather",
+            "schmooze",
+            "blether"
+        ]
+    },
+    "cf950b237c": {
+        "id": "cf950b237c",
+        "term": "chat",
+        "part_of_speech": "(noun)",
+        "definition": "an informal conversation",
+        "synonyms": [
+            "talk",
+            "tête-à-tête",
+            "conversation",
+            "gossip",
+            "heart-to-heart",
+            "natter",
+            "blather",
+            "schmooze",
+            "blether",
+            "confab"
+        ]
+    },
+    "88347a196f": {
+        "id": "88347a196f",
+        "term": "tête-à-tête",
+        "part_of_speech": "(noun)",
+        "definition": "a private conversation between two people",
+        "synonyms": [
+            "talk",
+            "chat",
+            "parley",
+            "confab"
+        ]
+    },
+    "849b4db514": {
+        "id": "849b4db514",
+        "term": "tête-à-tête",
+        "part_of_speech": "(adverb)",
+        "definition": "together in private",
+        "synonyms": [
+            "in-private",
+            "privately",
+            "intimately"
+        ]
+    },
+    "3f73b22e01": {
+        "id": "3f73b22e01",
+        "term": "talk",
+        "part_of_speech": "(verb)",
+        "definition": "to express one's thoughts or feelings by means of spoken words",
+        "synonyms": [
+            "speak",
+            "chat",
+            "chatter",
+            "converse",
+            "communicate",
+            "rap",
+            "articulate",
+            "witter",
+            "gab",
+            "prattle",
+            "natter",
+            "prate"
+        ]
+    },
+    "fb0a3404e2": {
+        "id": "fb0a3404e2",
+        "term": "talk",
+        "part_of_speech": "(verb)",
+        "definition": "to discuss",
+        "synonyms": [
+            "discuss",
+            "confer",
+            "negotiate",
+            "palaver",
+            "parley",
+            "confabulate"
+        ]
+    },
+    "7e51b828d7": {
+        "id": "7e51b828d7",
+        "term": "talk",
+        "part_of_speech": "(verb)",
+        "definition": "to spread rumours or gossip",
+        "synonyms": [
+            "gossip",
+            "criticize",
+            "tattle"
+        ]
+    },
+    "8dcf0171c7": {
+        "id": "8dcf0171c7",
+        "term": "talk",
+        "part_of_speech": "(verb)",
+        "definition": "to reveal information",
+        "synonyms": [
+            "inform",
+            "shop",
+            "grass",
+            "sing",
+            "squeal",
+            "squeak",
+            "spill-the-beans",
+            "blab"
+        ]
+    },
+    "ae59c099ed": {
+        "id": "ae59c099ed",
+        "term": "talk",
+        "part_of_speech": "(verb)",
+        "definition": "to be able to speak (a language or style) in conversation",
+        "synonyms": [
+            "speak",
+            "use"
+        ]
+    },
+    "f3aaad62b4": {
+        "id": "f3aaad62b4",
+        "term": "talk",
+        "part_of_speech": "(verb)",
+        "definition": "to give voice to",
+        "synonyms": [
+            "utter",
+            "say",
+            "express",
+            "spout"
+        ]
+    },
+    "88dabd9da9": {
+        "id": "88dabd9da9",
+        "term": "talk",
+        "part_of_speech": "(noun)",
+        "definition": "a speech or lecture",
+        "synonyms": [
+            "speech",
+            "lecture",
+            "presentation",
+            "report",
+            "address",
+            "seminar",
+            "discourse",
+            "sermon",
+            "symposium",
+            "dissertation",
+            "harangue",
+            "oration",
+            "disquisition"
+        ]
+    },
+    "f9e5fd13fc": {
+        "id": "f9e5fd13fc",
+        "term": "talk",
+        "part_of_speech": "(noun)",
+        "definition": "an exchange of ideas or thoughts",
+        "synonyms": [
+            "conversation",
+            "chat",
+            "natter",
+            "crack",
+            "rap",
+            "jaw",
+            "chatter",
+            "gab",
+            "blether",
+            "blather"
+        ]
+    },
+    "b2ae093412": {
+        "id": "b2ae093412",
+        "term": "talk",
+        "part_of_speech": "(noun)",
+        "definition": "idle chatter, gossip, or rumour",
+        "synonyms": [
+            "gossip",
+            "rumour",
+            "hearsay",
+            "tittle-tattle"
+        ]
+    },
+    "39b178232e": {
+        "id": "39b178232e",
+        "term": "talk",
+        "part_of_speech": "(noun)",
+        "definition": "No definition available",
+        "synonyms": [
+            "language",
+            "speech",
+            "jargon",
+            "slang",
+            "dialect",
+            "lingo",
+            "patois",
+            "argot"
+        ]
+    },
+    "2b17cd6008": {
+        "id": "2b17cd6008",
+        "term": "talk",
+        "part_of_speech": "(noun)",
+        "definition": "a conference, discussion, or negotiation",
+        "synonyms": [
+            "meeting",
+            "conference",
+            "congress",
+            "summit",
+            "mediation",
+            "arbitration",
+            "conciliation",
+            "conclave",
+            "palaver",
+            "parley",
+            "hui"
+        ]
+    },
+    "7fda5814bd": {
+        "id": "7fda5814bd",
+        "term": "discussion",
+        "part_of_speech": "(noun)",
+        "definition": "No definition available",
+        "synonyms": [
+            "examination",
+            "investigation",
+            "analysis",
+            "scrutiny",
+            "dissection"
+        ]
+    },
+    "33b2f0f9b7": {
+        "id": "33b2f0f9b7",
+        "term": "consultation",
+        "part_of_speech": "(noun)",
+        "definition": "the act of consulting",
+        "synonyms": [
+            "discussion",
+            "talk",
+            "council",
+            "conference",
+            "dialogue"
+        ]
+    },
+    "96d540d6ce": {
+        "id": "96d540d6ce",
+        "term": "consultation",
+        "part_of_speech": "(noun)",
+        "definition": "a meeting for discussion or the seeking of advice",
+        "synonyms": [
+            "meeting",
+            "interview",
+            "session",
+            "appointment",
+            "examination",
+            "deliberation",
+            "hearing"
+        ]
+    },
+    "1788e14aa4": {
+        "id": "1788e14aa4",
+        "term": "colloquy",
+        "part_of_speech": "(noun)",
+        "definition": "a conversation or conference",
+        "synonyms": [
+            "talk",
+            "conference",
+            "debate",
+            "discussion",
+            "conversation",
+            "dialogue",
+            "discourse",
+            "confabulation"
+        ]
+    },
+    "dbe3b582f6": {
+        "id": "dbe3b582f6",
+        "term": "confabulation",
+        "part_of_speech": "(noun)",
+        "definition": "a conversation",
+        "synonyms": [
+            "conversation",
+            "talk",
+            "session",
+            "discussion",
+            "chat",
+            "gossip",
+            "natter",
+            "confab"
+        ]
+    },
+    "c7d2a39ba3": {
+        "id": "c7d2a39ba3",
+        "term": "confab",
+        "part_of_speech": "(noun)",
+        "definition": "a conversation",
+        "synonyms": [
+            "conversation",
+            "talk",
+            "session",
+            "discussion",
+            "chat",
+            "gossip",
+            "natter",
+            "confabulation"
+        ]
+    },
+    "ce4a7014b1": {
+        "id": "ce4a7014b1",
+        "term": "heart-to-heart",
+        "part_of_speech": "(adjective)",
+        "definition": "(of a talk) concerned with personal problems or intimate feelings",
+        "synonyms": [
+            "intimate",
+            "honest",
+            "candid",
+            "open",
+            "personal",
+            "sincere",
+            "truthful",
+            "unreserved"
+        ]
+    },
+    "afcf96dd7b": {
+        "id": "afcf96dd7b",
+        "term": "heart-to-heart",
+        "part_of_speech": "(noun)",
+        "definition": "an intimate conversation",
+        "synonyms": [
+            "tête-à-tête",
+            "one-to-one"
         ]
     }
 }
