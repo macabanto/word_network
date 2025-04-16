@@ -111,10 +111,12 @@ def parse_lemma(word, soup):
     
     for sense in sense_divs:
         part_of_speech = sense.select_one("span.headerSensePos")
-        part_of_speech = part_of_speech.text.strip() if part_of_speech else "Unknown"
+        part_of_speech = part_of_speech.text.strip() if part_of_speech else "unknown"
+        part_of_speech = part_of_speech.replace("(","") # remove the parentheses
+        part_of_speech = part_of_speech.replace(")","")
 
         definition = sense.select_one(".def")
-        definition = definition.text.strip() if definition else "No definition available"
+        definition = definition.text.strip() if definition else "no definition available"
 
         id = generate_lemma_id(word, definition)
 
