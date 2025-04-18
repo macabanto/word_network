@@ -4,7 +4,7 @@ import xml.dom.minidom as minidom
 import math
 import random
 import argparse
-
+# run with : python3 scripts/json_to_drawio.py output/synonyms_graph_linked.json output_diagram.drawi
 def create_drawio_xml(json_data):
     # Create the basic structure for the mxfile
     mxfile = ET.Element("mxfile")
