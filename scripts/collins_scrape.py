@@ -103,12 +103,12 @@ def parse_lemma(word, soup):
     if not british_div:
         print(f"No British definitions found for {word}!")
         return []
-    
+
     sense_divs = british_div.select('div.sense.opened.moreAnt.moreSyn')
     if not sense_divs:
         print(f"No .sense elements found for {word}!")  
         return []
-    
+
     for sense in sense_divs:
         part_of_speech = sense.select_one("span.headerSensePos")
         part_of_speech = part_of_speech.text.strip() if part_of_speech else "unknown"
@@ -144,31 +144,36 @@ def build_synonym_graph():
         queue.append(start_word)
 
     while queue:
-        # print(queue)
         word = queue.popleft()
-        
-        if any(lemma.startswith(word) for lemma in data.keys()):  # Skip if already processed
+
+        # Skip if we've already processed this word (by checking lemma term)
+        if any(entry["term"] == word for entry in data.values()):
             continue
-        
+
         print(f"Processing: {word}")
         soup = fetch_html(word)
         if not soup:
             continue
-        
+
+        # Safely collect lemmas *first*
         lemma_list = parse_lemma(word, soup)
-        
+        if not lemma_list:
+            continue  # Skip storing if parse failed
+
         for lemma in lemma_list:
-            key = f"{lemma['id']}".lower()  # Unique key per lemma
-            data[key] = lemma  # Store as a flat entry
-        
+            key = lemma["id"].lower()
+            data[key] = lemma  # Store lemma only after full parse
+
+            # Queue up new synonyms for processing
             for synonym in lemma["synonyms"]:
-                if synonym not in queue and synonym not in data:
-                    queue.append(synonym)  # Add to queue for processing
-        
+                if synonym not in queue and all(entry["term"] != synonym for entry in data.values()):
+                    queue.append(synonym)
+
+        # Save updated graph, queue, and metrics
         save_json(data, OUTPUT_FILE)
-        save_queue(queue)  # Save queue progress
-        update_metrics(data, queue)  # Update metrics after each word
-        time.sleep(0.2)  # Avoid request overload
+        save_queue(queue)
+        update_metrics(data, queue)
+        time.sleep(0.2)  # Be gentle with the server, darling 🥺
 
     print("Processing complete! Data saved.")
 

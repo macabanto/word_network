@@ -1,7 +1,7 @@
 {
-    "total_words_processed": 48,
-    "total_synonyms": 1380,
-    "graph_file_size": 70092,
-    "queue_length": 951,
-    "total_lemmas": 185
+    "total_words_processed": 519,
+    "total_synonyms": 15109,
+    "graph_file_size": 756165,
+    "queue_length": 5428,
+    "total_lemmas": 1956
 }
