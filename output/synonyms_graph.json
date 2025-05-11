@@ -30721,5 +30721,859 @@
             "intricate",
             "meticulous"
         ]
+    },
+    "fc98597ca8": {
+        "id": "fc98597ca8",
+        "term": "searching",
+        "part_of_speech": "adjective",
+        "definition": "keen or thorough",
+        "synonyms": [
+            "keen",
+            "sharp",
+            "close",
+            "severe",
+            "intent",
+            "piercing",
+            "penetrating",
+            "thorough",
+            "quizzical"
+        ]
+    },
+    "7ea5a7ab86": {
+        "id": "7ea5a7ab86",
+        "term": "concentrated",
+        "part_of_speech": "adjective",
+        "definition": "no definition available",
+        "synonyms": [
+            "intense",
+            "hard",
+            "deep",
+            "intensive",
+            "all-out"
+        ]
+    },
+    "77fbe67633": {
+        "id": "77fbe67633",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "fond of",
+        "synonyms": [
+            "eager",
+            "earnest",
+            "spirited",
+            "devoted",
+            "intense",
+            "fierce",
+            "enthusiastic",
+            "passionate",
+            "ardent",
+            "avid",
+            "fervent",
+            "impassioned",
+            "zealous",
+            "ebullient",
+            "wholehearted",
+            "fervid"
+        ]
+    },
+    "04ab4df4fa": {
+        "id": "04ab4df4fa",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "intense or strong",
+        "synonyms": [
+            "earnest",
+            "fierce",
+            "intense",
+            "vehement",
+            "burning",
+            "flaming",
+            "consuming",
+            "eager",
+            "passionate",
+            "heightened",
+            "energetic",
+            "ardent",
+            "fanatical",
+            "fervent",
+            "impassioned",
+            "fervid"
+        ]
+    },
+    "d8e14a0153": {
+        "id": "d8e14a0153",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "no definition available",
+        "synonyms": [
+            "faithful",
+            "true",
+            "constant",
+            "devoted",
+            "loyal",
+            "patriotic",
+            "staunch",
+            "dependable",
+            "trustworthy",
+            "trusty",
+            "steadfast",
+            "dutiful",
+            "unwavering",
+            "true-blue",
+            "immovable",
+            "unswerving",
+            "true-hearted"
+        ]
+    },
+    "b1a749af1c": {
+        "id": "b1a749af1c",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "(of a knife or blade) having a sharp cutting edge",
+        "synonyms": [
+            "sharp",
+            "satirical",
+            "incisive",
+            "trenchant",
+            "pointed",
+            "cutting",
+            "biting",
+            "edged",
+            "acute",
+            "acid",
+            "stinging",
+            "piercing",
+            "penetrating",
+            "searing",
+            "tart",
+            "withering",
+            "scathing",
+            "pungent",
+            "sarcastic",
+            "sardonic",
+            "caustic",
+            "astringent",
+            "vitriolic",
+            "acerbic",
+            "mordant",
+            "razor-like"
+        ]
+    },
+    "524737dd6d": {
+        "id": "524737dd6d",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "intelligent, quick, and perceptive",
+        "synonyms": [
+            "perceptive",
+            "quick",
+            "sharp",
+            "brilliant",
+            "acute",
+            "smart",
+            "wise",
+            "clever",
+            "subtle",
+            "piercing",
+            "penetrating",
+            "discriminating",
+            "shrewd",
+            "discerning",
+            "ingenious",
+            "astute",
+            "intuitive",
+            "canny",
+            "incisive",
+            "insightful",
+            "observant",
+            "perspicacious",
+            "sapient"
+        ]
+    },
+    "6d76a0c36e": {
+        "id": "6d76a0c36e",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "(of sight, smell, or hearing) capable of recognizing fine distinctions",
+        "synonyms": [
+            "penetrating",
+            "clear",
+            "powerful",
+            "sharp",
+            "acute",
+            "sensitive",
+            "piercing",
+            "discerning",
+            "perceptive",
+            "observant"
+        ]
+    },
+    "2e24677a04": {
+        "id": "2e24677a04",
+        "term": "keen",
+        "part_of_speech": "adjective",
+        "definition": "very competitive",
+        "synonyms": [
+            "intense",
+            "strong",
+            "fierce",
+            "relentless",
+            "cut-throat"
+        ]
+    },
+    "97d0f82ee7": {
+        "id": "97d0f82ee7",
+        "term": "keen",
+        "part_of_speech": "verb",
+        "definition": "to lament the dead",
+        "synonyms": [
+            "lament",
+            "cry",
+            "weep",
+            "sob",
+            "mourn",
+            "grieve",
+            "howl",
+            "sorrow",
+            "wail",
+            "whine",
+            "whimper",
+            "bewail"
+        ]
+    },
+    "e43e8f240e": {
+        "id": "e43e8f240e",
+        "term": "keen",
+        "part_of_speech": "noun",
+        "definition": "a lament for the dead",
+        "synonyms": [
+            "lament",
+            "mourning",
+            "wailing",
+            "dirge",
+            "lamentation"
+        ]
+    },
+    "7c8f785b9e": {
+        "id": "7c8f785b9e",
+        "term": "intense",
+        "part_of_speech": "adjective",
+        "definition": "of very great force, strength, degree, or amount",
+        "synonyms": [
+            "extreme",
+            "great",
+            "severe",
+            "fierce",
+            "serious",
+            "deep",
+            "powerful",
+            "concentrated",
+            "supreme",
+            "acute",
+            "harsh",
+            "intensive",
+            "excessive",
+            "profound",
+            "exquisite",
+            "drastic",
+            "forceful",
+            "protracted",
+            "unqualified",
+            "agonizing"
+        ]
+    },
+    "82adf31d12": {
+        "id": "82adf31d12",
+        "term": "intense",
+        "part_of_speech": "adjective",
+        "definition": "no definition available",
+        "synonyms": [
+            "fierce",
+            "close",
+            "tough"
+        ]
+    },
+    "ec78b25a44": {
+        "id": "ec78b25a44",
+        "term": "intense",
+        "part_of_speech": "adjective",
+        "definition": "characterized by deep or forceful feelings",
+        "synonyms": [
+            "passionate",
+            "burning",
+            "earnest",
+            "emotional",
+            "keen",
+            "flaming",
+            "consuming",
+            "fierce",
+            "eager",
+            "enthusiastic",
+            "heightened",
+            "energetic",
+            "animated",
+            "ardent",
+            "fanatical",
+            "fervent",
+            "heartfelt",
+            "impassioned",
+            "vehement",
+            "forcible"
+        ]
+    },
+    "9f478d0732": {
+        "id": "9f478d0732",
+        "term": "minute",
+        "part_of_speech": "noun",
+        "definition": "60 seconds",
+        "synonyms": []
+    },
+    "585d8e3b22": {
+        "id": "585d8e3b22",
+        "term": "minute",
+        "part_of_speech": "noun",
+        "definition": "any very short period of time",
+        "synonyms": [
+            "moment",
+            "second",
+            "bit",
+            "shake",
+            "flash",
+            "instant",
+            "tick",
+            "jiffy",
+            "trice"
+        ]
+    },
+    "f74deac584": {
+        "id": "f74deac584",
+        "term": "minute",
+        "part_of_speech": "adjective",
+        "definition": "no definition available",
+        "synonyms": [
+            "negligible",
+            "slight",
+            "petty",
+            "trivial",
+            "trifling",
+            "unimportant",
+            "paltry",
+            "puny",
+            "piddling",
+            "inconsiderable"
+        ]
+    },
+    "ff64da9469": {
+        "id": "ff64da9469",
+        "term": "minute",
+        "part_of_speech": "adjective",
+        "definition": "very small",
+        "synonyms": [
+            "small",
+            "little",
+            "tiny",
+            "miniature",
+            "slender",
+            "fine",
+            "microscopic",
+            "diminutive",
+            "minuscule",
+            "infinitesimal",
+            "Lilliputian"
+        ]
+    },
+    "04b000c625": {
+        "id": "04b000c625",
+        "term": "minute",
+        "part_of_speech": "adjective",
+        "definition": "precise or detailed",
+        "synonyms": [
+            "precise",
+            "close",
+            "detailed",
+            "critical",
+            "exact",
+            "meticulous",
+            "exhaustive",
+            "painstaking",
+            "punctilious"
+        ]
+    },
+    "1c9b00c47f": {
+        "id": "1c9b00c47f",
+        "term": "alert",
+        "part_of_speech": "adjective",
+        "definition": "watchful and attentive",
+        "synonyms": [
+            "attentive",
+            "careful",
+            "awake",
+            "wary",
+            "vigilant",
+            "perceptive",
+            "watchful",
+            "ready",
+            "circumspect",
+            "observant",
+            "wide-awake",
+            "heedful"
+        ]
+    },
+    "314ce51412": {
+        "id": "314ce51412",
+        "term": "alert",
+        "part_of_speech": "noun",
+        "definition": "no definition available",
+        "synonyms": [
+            "warning",
+            "signal",
+            "alarm",
+            "siren"
+        ]
+    },
+    "98280eb049": {
+        "id": "98280eb049",
+        "term": "alert",
+        "part_of_speech": "verb",
+        "definition": "to warn of danger",
+        "synonyms": [
+            "warn",
+            "signal",
+            "inform",
+            "alarm",
+            "notify",
+            "tip-off",
+            "forewarn"
+        ]
+    },
+    "27ac8fa762": {
+        "id": "27ac8fa762",
+        "term": "thorough",
+        "part_of_speech": "adjective",
+        "definition": "great in extent or degree",
+        "synonyms": [
+            "complete",
+            "total",
+            "absolute",
+            "utter",
+            "perfect",
+            "entire",
+            "pure",
+            "sheer",
+            "outright",
+            "downright",
+            "unqualified",
+            "out-and-out",
+            "unmitigated",
+            "arrant"
+        ]
+    },
+    "7aba11496e": {
+        "id": "7aba11496e",
+        "term": "thorough",
+        "part_of_speech": "adjective",
+        "definition": "(of a person) painstakingly careful",
+        "synonyms": [
+            "careful",
+            "conscientious",
+            "painstaking",
+            "efficient",
+            "meticulous",
+            "exhaustive",
+            "scrupulous",
+            "assiduous"
+        ]
+    },
+    "5c8763ef9d": {
+        "id": "5c8763ef9d",
+        "term": "rigorous",
+        "part_of_speech": "adjective",
+        "definition": "harsh, strict, or severe",
+        "synonyms": [
+            "strict",
+            "hard",
+            "firm",
+            "demanding",
+            "tough",
+            "severe",
+            "exacting",
+            "harsh",
+            "stern",
+            "rigid",
+            "stringent",
+            "austere",
+            "inflexible"
+        ]
+    },
+    "3ea7d2a1c0": {
+        "id": "3ea7d2a1c0",
+        "term": "rigorous",
+        "part_of_speech": "adjective",
+        "definition": "severely accurate",
+        "synonyms": [
+            "thorough",
+            "meticulous",
+            "painstaking",
+            "scrupulous",
+            "nice",
+            "accurate",
+            "exact",
+            "precise",
+            "conscientious",
+            "punctilious"
+        ]
+    },
+    "83a4aeb6b2": {
+        "id": "83a4aeb6b2",
+        "term": "attentive",
+        "part_of_speech": "adjective",
+        "definition": "paying close attention",
+        "synonyms": [
+            "intent",
+            "careful",
+            "alert",
+            "awake",
+            "mindful",
+            "watchful",
+            "observant",
+            "studious",
+            "heedful",
+            "regardful"
+        ]
+    },
+    "a8b5230594": {
+        "id": "a8b5230594",
+        "term": "attentive",
+        "part_of_speech": "adjective",
+        "definition": "considerately helpful",
+        "synonyms": [
+            "considerate",
+            "kind",
+            "civil",
+            "devoted",
+            "helpful",
+            "obliging",
+            "accommodating",
+            "polite",
+            "thoughtful",
+            "gracious",
+            "conscientious",
+            "respectful",
+            "courteous",
+            "gallant"
+        ]
+    },
+    "d1db75ed29": {
+        "id": "d1db75ed29",
+        "term": "painstaking",
+        "part_of_speech": "adjective",
+        "definition": "extremely careful and thorough",
+        "synonyms": [
+            "thorough",
+            "careful",
+            "meticulous",
+            "earnest",
+            "exacting",
+            "strenuous",
+            "conscientious",
+            "persevering",
+            "diligent",
+            "scrupulous",
+            "industrious",
+            "assiduous",
+            "thoroughgoing",
+            "punctilious",
+            "sedulous"
+        ]
+    },
+    "9edc9553cc": {
+        "id": "9edc9553cc",
+        "term": "assiduous",
+        "part_of_speech": "adjective",
+        "definition": "hard-working",
+        "synonyms": [
+            "diligent",
+            "constant",
+            "steady",
+            "persistent",
+            "attentive",
+            "persevering",
+            "laborious",
+            "industrious",
+            "indefatigable",
+            "studious",
+            "unflagging",
+            "untiring",
+            "sedulous"
+        ]
+    },
+    "56a2b18cf8": {
+        "id": "56a2b18cf8",
+        "term": "even",
+        "part_of_speech": "adjective",
+        "definition": "regular and unvarying",
+        "synonyms": [
+            "regular",
+            "stable",
+            "constant",
+            "steady",
+            "smooth",
+            "uniform",
+            "unbroken",
+            "uninterrupted",
+            "unwavering",
+            "metrical"
+        ]
+    },
+    "8cde3aabdf": {
+        "id": "8cde3aabdf",
+        "term": "even",
+        "part_of_speech": "adjective",
+        "definition": "on the same level",
+        "synonyms": [
+            "level",
+            "straight",
+            "flat",
+            "plane",
+            "smooth",
+            "true",
+            "steady",
+            "uniform",
+            "parallel",
+            "flush",
+            "horizontal",
+            "plumb"
+        ]
+    },
+    "96c192736a": {
+        "id": "96c192736a",
+        "term": "even",
+        "part_of_speech": "adjective",
+        "definition": "equal in number, quantity, etc.",
+        "synonyms": [
+            "equal",
+            "like",
+            "matching",
+            "similar",
+            "uniform",
+            "parallel",
+            "identical",
+            "comparable",
+            "commensurate"
+        ]
+    },
+    "e2a0f4193f": {
+        "id": "e2a0f4193f",
+        "term": "even",
+        "part_of_speech": "adjective",
+        "definition": "having scored the same number of points",
+        "synonyms": [
+            "level",
+            "drawn",
+            "equalized"
+        ]
+    },
+    "9671ce8f56": {
+        "id": "9671ce8f56",
+        "term": "even",
+        "part_of_speech": "adverb",
+        "definition": "no definition available",
+        "synonyms": []
+    },
+    "bac5e13513": {
+        "id": "bac5e13513",
+        "term": "even",
+        "part_of_speech": "adverb",
+        "definition": "used to intensify a comparative adjective or adverb",
+        "synonyms": [
+            "much",
+            "still",
+            "yet"
+        ]
+    },
+    "bfd774692d": {
+        "id": "bfd774692d",
+        "term": "even",
+        "part_of_speech": "adverb",
+        "definition": "used to introduce a word that is stronger and more accurate than one already used",
+        "synonyms": [
+            "indeed",
+            "actually",
+            "in-truth",
+            "in-point-of-fact"
+        ]
+    },
+    "137e5ac183": {
+        "id": "137e5ac183",
+        "term": "level",
+        "part_of_speech": "noun",
+        "definition": "stage or degree of progress",
+        "synonyms": [
+            "position",
+            "standard",
+            "degree",
+            "grade",
+            "standing",
+            "stage",
+            "rank",
+            "status"
+        ]
+    },
+    "a13b352cbe": {
+        "id": "a13b352cbe",
+        "term": "level",
+        "part_of_speech": "noun",
+        "definition": "the topmost horizontal line or plane from which the height of something is calculated",
+        "synonyms": [
+            "height",
+            "altitude",
+            "elevation"
+        ]
+    },
+    "a898bc531f": {
+        "id": "a898bc531f",
+        "term": "level",
+        "part_of_speech": "noun",
+        "definition": "a flat even surface or area of land",
+        "synonyms": [
+            "plane",
+            "horizontal"
+        ]
+    },
+    "d09bb55c97": {
+        "id": "d09bb55c97",
+        "term": "level",
+        "part_of_speech": "adjective",
+        "definition": "being of the same height as something else",
+        "synonyms": [
+            "equal",
+            "in-line",
+            "aligned",
+            "balanced"
+        ]
+    },
+    "deb0c6559f": {
+        "id": "deb0c6559f",
+        "term": "level",
+        "part_of_speech": "adjective",
+        "definition": "having an even surface",
+        "synonyms": [
+            "horizontal",
+            "even",
+            "flat",
+            "plane",
+            "smooth",
+            "uniform"
+        ]
+    },
+    "e1b1d6fe88": {
+        "id": "e1b1d6fe88",
+        "term": "level",
+        "part_of_speech": "adjective",
+        "definition": "consistent or regular",
+        "synonyms": [
+            "calm",
+            "even",
+            "regular",
+            "stable",
+            "steady",
+            "unchanging",
+            "equable",
+            "even-tempered",
+            "unvarying"
+        ]
+    },
+    "82f7af4718": {
+        "id": "82f7af4718",
+        "term": "level",
+        "part_of_speech": "adjective",
+        "definition": "equal to or even with (something or someone else)",
+        "synonyms": [
+            "even",
+            "equal",
+            "drawn",
+            "neck-and-neck"
+        ]
+    },
+    "82385b8231": {
+        "id": "82385b8231",
+        "term": "level",
+        "part_of_speech": "verb",
+        "definition": "to make equal in position or status",
+        "synonyms": [
+            "equalize",
+            "balance"
+        ]
+    },
+    "315cc3e267": {
+        "id": "315cc3e267",
+        "term": "level",
+        "part_of_speech": "verb",
+        "definition": "to demolish completely",
+        "synonyms": [
+            "destroy",
+            "devastate",
+            "wreck",
+            "demolish",
+            "flatten",
+            "bulldoze",
+            "raze"
+        ]
+    },
+    "a6f0345e38": {
+        "id": "a6f0345e38",
+        "term": "level",
+        "part_of_speech": "verb",
+        "definition": "to aim (a weapon) horizontally",
+        "synonyms": [
+            "direct",
+            "point",
+            "turn",
+            "train",
+            "aim",
+            "focus",
+            "beam"
+        ]
+    },
+    "35a547a6c9": {
+        "id": "35a547a6c9",
+        "term": "level",
+        "part_of_speech": "verb",
+        "definition": "to make horizontal or even",
+        "synonyms": [
+            "flatten",
+            "plane",
+            "smooth"
+        ]
+    },
+    "e0913f60b2": {
+        "id": "e0913f60b2",
+        "term": "neck-and-neck",
+        "part_of_speech": "idiom",
+        "definition": "absolutely level in a race or competition",
+        "synonyms": [
+            "level",
+            "equal"
+        ]
+    },
+    "6e941b4074": {
+        "id": "6e941b4074",
+        "term": "imminent",
+        "part_of_speech": "adjective",
+        "definition": "likely to happen soon",
+        "synonyms": [
+            "near",
+            "coming",
+            "close",
+            "threatening",
+            "gathering",
+            "forthcoming",
+            "menacing",
+            "impending",
+            "at-hand",
+            "upcoming",
+            "in-the-pipeline",
+            "nigh"
+        ]
     }
 }

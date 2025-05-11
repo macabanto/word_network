@@ -2,7 +2,11 @@ import json
 
 GRAPH_FILE = "output/synonyms_graph.json"
 LINKED_GRAPH_FILE = "output/synonyms_graph_linked.json"
-
+#lacks inference of 1st degree
+#when selecting the correct lemma, 
+#   if none of the lemma contain the parent as a synonym,
+#       compare the first degree synonyms to each lemmas synonyms
+#   this should definitely return a lemma
 def load_graph(filename):
     with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
