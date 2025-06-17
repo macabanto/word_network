@@ -4,6 +4,8 @@ import xml.dom.minidom as minidom
 import math
 import random
 import argparse
+# script for converting the linked-synonyms-graph into a draw.io network diagram
+# intent here is to visualise collected data to get a better idea of the front end
 # run with : python3 scripts/json_to_drawio.py output/synonyms_graph_linked.json output_diagram.drawi
 def create_drawio_xml(json_data):
     # Create the basic structure for the mxfile

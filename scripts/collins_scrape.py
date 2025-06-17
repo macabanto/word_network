@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import os
+import undetected_chromedriver as uc
 
 # Constants
 BASE_URL = "https://www.collinsdictionary.com/dictionary/english-thesaurus/"
@@ -70,17 +71,22 @@ def save_queue(queue):
 # Set up Selenium (Headless Chrome)
 def setup_selenium():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run in the background without UI
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # Avoid detection
+#    chrome_options.add_argument("--headless=new")
+#    chrome_options.add_argument("--headless")  # Run in the background without UI
+#    chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # Avoid detection
+#    chrome_options.add_argument("--window-size=1920,1080")
+#    chrome_options.add_argument("--disable-gpu")
+#    chrome_options.add_argument("--no-sandbox")
+#    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=chrome_options)
     return driver
 
 # Fetch HTML content using Selenium
 def fetch_html(word):
     url = BASE_URL + word
     driver = setup_selenium()
-    
+
     try:
         driver.get(url)
         time.sleep(3)  # Wait for JavaScript to load
