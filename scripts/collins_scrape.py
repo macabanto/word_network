@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 import os
 import undetected_chromedriver as uc
 
+#test commit
 # Constants
 BASE_URL = "https://www.collinsdictionary.com/dictionary/english-thesaurus/"
 OUTPUT_FILE = "output/synonyms_graph.json"
